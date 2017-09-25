@@ -456,7 +456,7 @@ osmtm.project = (function() {
       break;
       case "potlatch2":
       url = getLink({
-        base: 'http://www.openstreetmap.org/edit?editor=potlatch2&',
+        base: 'http://id.missingmaps.nl/edit?editor=potlatch2&',
         bounds: task_bounds,
         centroid: task_centroid,
         protocol: 'llz'
@@ -488,7 +488,7 @@ osmtm.project = (function() {
           break;
         }
         url = getLink({
-          base: 'http://www.openstreetmap.org/edit?editor=id&',
+          base: 'http://id.missingmaps.nl/edit?editor=id&',
           bounds: task_bounds,
           centroid: task_centroid,
           protocol: 'id'
